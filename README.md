@@ -98,3 +98,4 @@ The included GitHub Actions workflow builds two Debian packages:
 To build them, push the source to the repository's `main` or `master` branch, open a pull request targeting either branch, or run the workflow manually from the GitHub Actions tab. Download the generated workflow artifact and install the package that matches your jailbreak environment.
 
 The project is configured with an iOS 15.0 deployment target and uses the iOS 16.5 SDK in its Theos Makefile. Actual compatibility still depends on the device, jailbreak, iOS release, and camera capture path.
+
